@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="flex justify-center p-10 h-screen w-screen bg-slate-900">
+      <div class="flex flex-col gap-y-5">
+        <h1 class="text-white text-3xl font-bold font-kanit">
+          Temperature Convertor
+        </h1>
+        <div>
+          <label for="cel" class="text-white text-lg">Celcius</label>
+          <input
+            type="number"
+            id="cel"
+            class="w-full mt-1 p-2 rounded-lg focus:outline-none"
+          />
+        </div>
+        <div>
+          <label for="far" class="text-white text-lg">Fahrenheit</label>
+          <input
+            type="number"
+            id="far"
+            class="w-full mt-1 p-2 rounded-lg focus:outline-none"
+          />
+        </div>
+        <div>
+          <label for="kel" class="text-white text-lg">Kelvin</label>
+          <input
+            type="number"
+            id="kel"
+            class="w-full mt-1 p-2 rounded-lg focus:outline-none"
+          />
+        </div>
+        <div>
+          <button
+            class="bg-white w-full p-2 mt-2 font-bold text-lg rounded-lg"
+            id="btn"
+          >
+            Reset
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
